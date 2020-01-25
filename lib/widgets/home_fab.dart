@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tamu_hack_2020/utilities/requests.dart';
 
 class HomeFAB extends StatelessWidget {
   @override
@@ -8,6 +9,7 @@ class HomeFAB extends StatelessWidget {
       tooltip: "Return to home",
       onPressed: () async {
         // TODO: implment return to home functionality
+        Requests.getFires();
       },
     );
   }

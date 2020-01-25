@@ -10,9 +10,14 @@ class Constants {
   //Lists
 //  static const tabs = List(TabItem(icon: Icons.home));
 
+  //numbers
+  static const breezeRadius = 60;
+  static const startLat = -33.470787;
+  static const startLong = 150.162418;
+
   //other
   static const CameraPosition defaultPosition = CameraPosition(
-      target: LatLng(-33.470787, 150.162418), bearing: 270, zoom: 13.0, tilt: 0);
+      target: LatLng(startLat, startLong), bearing: 270, zoom: 13.0, tilt: 0);
 
 
 }
