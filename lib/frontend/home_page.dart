@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:tamu_hack_2020/models/map_info.dart';
+import 'package:tamu_hack_2020/widgets/map_view.dart';
 
 class MyHome extends StatelessWidget {
   @override
@@ -13,9 +14,7 @@ class MyHome extends StatelessWidget {
             backgroundColor: Colors.deepOrange,
           ),
           body: Stack(
-            children: <Widget>[
-
-            ],
+            children: <Widget>[MapView()],
           ),
         ),
       ),
