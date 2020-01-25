@@ -8,7 +8,13 @@ class MyHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
       create: (_) => new MapInfo(),
-      child: Container(),
+      child: Container(
+        child: Scaffold(
+          appBar: AppBar(
+            backgroundColor: Colors.deepOrange,
+          ),
+        ),
+      ),
     );
   }
 }
