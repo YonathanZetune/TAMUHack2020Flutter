@@ -3,7 +3,7 @@ class Fire {
   double lat;
   double lon;
   double distance;
-  double direction;
+  int direction;
 
   Fire(this.confidence, this.lat, this.lon, this.distance, this.direction);
 
@@ -18,12 +18,12 @@ class Fire {
 }
 
 class FireList {
-  List<dynamic> fires;
+  List<Fire> fires;
 
   FireList(this.fires);
 
   factory FireList.fromJson(Map<String, dynamic> json) {
-    List<dynamic> fires = (json["fires"]).map((i) => Fire.fromJson(i)).toList();
+    List<Fire> fires = new List<Fire>.from(json["data"]["fires"].map((i) => Fire.fromJson(i)));
 
     return new FireList(fires);
   }

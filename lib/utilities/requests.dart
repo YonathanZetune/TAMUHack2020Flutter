@@ -5,16 +5,18 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:tamu_hack_2020/models/fire.dart';
 import 'package:tamu_hack_2020/utilities/constants.dart';
 
 class Requests {
 
-  static Future<List<dynamic>> getFires() async {
+  static Future<List<Fire>> getFires() async {
     var path = "fires/v1/current-conditions?lat=${Constants.startLat}&lon=${Constants.startLong}&key=${Constants.breezeAPIKey}&radius=${Constants.breezeRadius}&units=imperial";
     var result = await getResult(path);
     print(result.toString());
-//    var busMentorList = result.map((i) => BusMentor.fromJson(i)).toList();
-//    return busMentorList;
+    var fireList = FireList.fromJson(result).fires;
+//    print(fireList.elementAt(1).lat);
+    return fireList;
   }
 
   static Future<dynamic> getResult(String path) async {
