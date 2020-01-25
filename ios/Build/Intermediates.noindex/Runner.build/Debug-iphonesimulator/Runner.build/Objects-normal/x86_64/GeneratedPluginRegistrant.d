@@ -17,8 +17,8 @@ dependencies: \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Flutter/Flutter.framework/Headers/FlutterMacros.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Flutter/Flutter.framework/Headers/FlutterAppDelegate.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Flutter/Flutter.framework/Headers/Flutter.h \
-  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Build/Products/Debug-iphonesimulator/google_maps_flutter/google_maps_flutter.framework/Headers/FLTGoogleMapsPlugin.h \
-  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Build/Products/Debug-iphonesimulator/google_maps_flutter/google_maps_flutter.framework/Modules/module.modulemap \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphonesimulator/google_maps_flutter/google_maps_flutter.framework/Headers/FLTGoogleMapsPlugin.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphonesimulator/google_maps_flutter/google_maps_flutter.framework/Modules/module.modulemap \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h \
@@ -65,13 +65,13 @@ dependencies: \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h \
-  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Build/Products/Debug-iphonesimulator/google_maps_flutter/google_maps_flutter.framework/Headers/JsonConversions.h \
-  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Build/Products/Debug-iphonesimulator/google_maps_flutter/google_maps_flutter.framework/Headers/GoogleMapPolylineController.h \
-  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Build/Products/Debug-iphonesimulator/google_maps_flutter/google_maps_flutter.framework/Headers/GoogleMapPolygonController.h \
-  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Build/Products/Debug-iphonesimulator/google_maps_flutter/google_maps_flutter.framework/Headers/GoogleMapMarkerController.h \
-  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Build/Products/Debug-iphonesimulator/google_maps_flutter/google_maps_flutter.framework/Headers/GoogleMapController.h \
-  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Build/Products/Debug-iphonesimulator/google_maps_flutter/google_maps_flutter.framework/Headers/GoogleMapCircleController.h \
-  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Build/Products/Debug-iphonesimulator/google_maps_flutter/google_maps_flutter.framework/Headers/google_maps_flutter-umbrella.h \
-  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Build/Products/Debug-iphonesimulator/location/location.framework/Headers/LocationPlugin.h \
-  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Build/Products/Debug-iphonesimulator/location/location.framework/Modules/module.modulemap \
-  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Build/Products/Debug-iphonesimulator/location/location.framework/Headers/location-umbrella.h
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphonesimulator/google_maps_flutter/google_maps_flutter.framework/Headers/JsonConversions.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphonesimulator/google_maps_flutter/google_maps_flutter.framework/Headers/GoogleMapPolylineController.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphonesimulator/google_maps_flutter/google_maps_flutter.framework/Headers/GoogleMapPolygonController.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphonesimulator/google_maps_flutter/google_maps_flutter.framework/Headers/GoogleMapMarkerController.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphonesimulator/google_maps_flutter/google_maps_flutter.framework/Headers/GoogleMapController.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphonesimulator/google_maps_flutter/google_maps_flutter.framework/Headers/GoogleMapCircleController.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphonesimulator/google_maps_flutter/google_maps_flutter.framework/Headers/google_maps_flutter-umbrella.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphonesimulator/location/location.framework/Headers/LocationPlugin.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphonesimulator/location/location.framework/Modules/module.modulemap \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphonesimulator/location/location.framework/Headers/location-umbrella.h

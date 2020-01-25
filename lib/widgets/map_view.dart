@@ -14,8 +14,10 @@ class MapView extends StatelessWidget {
     var mapInfo = Provider.of<MapInfo>(context);
 
     return Container(
+      height: MediaQuery.of(context).size.height - 0,
+      width: MediaQuery.of(context).size.width,
       child: GoogleMap(
-        mapType: MapType.terrain,
+        mapType: MapType.hybrid,
         myLocationButtonEnabled: true,
         zoomGesturesEnabled: true,
         rotateGesturesEnabled: true,

@@ -19,10 +19,7 @@ class MyApp extends StatelessWidget {
 
 //        '/gSearch': (context) => new Search(),
       },
-      //TODO: Make app dependent on Theme
-//      theme: ThemeData(
-//        primarySwatch: Colors.white,
-//      ),
+
       home: MyHome(),
     );
   }
