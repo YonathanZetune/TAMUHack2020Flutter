@@ -18,7 +18,7 @@ class MapView extends StatelessWidget {
       width: MediaQuery.of(context).size.width,
       child: GoogleMap(
         mapType: MapType.hybrid,
-        myLocationButtonEnabled: true,
+        myLocationButtonEnabled: false,
         zoomGesturesEnabled: true,
         rotateGesturesEnabled: true,
         scrollGesturesEnabled: true,
