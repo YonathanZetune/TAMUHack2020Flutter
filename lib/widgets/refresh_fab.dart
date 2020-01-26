@@ -13,6 +13,8 @@ class RefreshFAB extends StatelessWidget {
       bottom: 30,
       left: 20,
       child: FloatingActionButton(
+        heroTag: "refFAB1",
+
         backgroundColor: Colors.white,
         child: Icon(Icons.refresh,size: 35.0, color: Colors.deepOrange,),
         tooltip: "Refresh markers",

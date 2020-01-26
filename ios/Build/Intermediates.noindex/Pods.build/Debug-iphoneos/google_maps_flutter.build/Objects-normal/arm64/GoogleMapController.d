@@ -37,7 +37,10 @@ dependencies: \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStrokeStyle.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStyleSpan.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygonLayer.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlayLayer.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h \

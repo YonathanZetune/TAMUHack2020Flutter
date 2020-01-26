@@ -1,6 +1,8 @@
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:rounded_floating_app_bar/rounded_floating_app_bar.dart';
+import 'package:tamu_hack_2020/models/form_info.dart';
 import 'package:tamu_hack_2020/models/map_info.dart';
 import 'package:tamu_hack_2020/widgets/home_fab.dart';
 import 'package:tamu_hack_2020/widgets/map_view.dart';
@@ -16,13 +18,31 @@ class MyHome extends StatelessWidget {
     tabs.add(TabItem(title: "Report", icon: Icons.add_location));
     tabs.add(TabItem(title: "List", icon: Icons.list));
 
-    return ChangeNotifierProvider(
-      create: (context) => MapInfo(),
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (context) => MapInfo()),
+        ChangeNotifierProvider(create: (context) => FormInfo())
+      ],
       child: Container(
         child: Scaffold(
           bottomNavigationBar: ConvexAppBar(
+            onTap: (ind) {
+              switch (ind) {
+                case 0:
+                  Navigator.of(context).canPop()
+                      ? Navigator.of(context).popAndPushNamed('/')
+                      : print('cant push');
+                  break;
+                case 1:
+                  Navigator.of(context).pushNamed('/ReportPage');
+                  break;
+                case 2:
+                  Navigator.of(context).pushNamed('/Announcements');
+                  break;
+              }
+            },
             items: tabs,
-            backgroundColor: Colors.deepOrange,
+            backgroundColor: Colors.red[600],
             style: TabStyle.fixedCircle,
           ),
 //          appBar: AppBar(
@@ -33,7 +53,6 @@ class MyHome extends StatelessWidget {
               MapView(),
               HomeFAB(),
               RefreshFAB(),
-
             ],
           ),
         ),

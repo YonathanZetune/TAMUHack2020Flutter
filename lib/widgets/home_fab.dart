@@ -13,6 +13,7 @@ class HomeFAB extends StatelessWidget {
       bottom: 30,
       right: 20,
       child: FloatingActionButton(
+        heroTag: "homeFAB1",
         backgroundColor: Colors.white,
 
         child: Icon(Icons.home,color: Colors.deepOrange, size: 35.0),

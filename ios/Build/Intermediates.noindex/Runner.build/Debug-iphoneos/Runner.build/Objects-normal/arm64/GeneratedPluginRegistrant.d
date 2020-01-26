@@ -17,6 +17,9 @@ dependencies: \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Flutter/Flutter.framework/Headers/FlutterMacros.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Flutter/Flutter.framework/Headers/FlutterAppDelegate.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Flutter/Flutter.framework/Headers/Flutter.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/flutter_keyboard_visibility/flutter_keyboard_visibility.framework/Headers/KeyboardVisibilityPlugin.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/flutter_keyboard_visibility/flutter_keyboard_visibility.framework/Modules/module.modulemap \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/flutter_keyboard_visibility/flutter_keyboard_visibility.framework/Headers/flutter_keyboard_visibility-umbrella.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/google_maps_flutter/google_maps_flutter.framework/Headers/FLTGoogleMapsPlugin.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/google_maps_flutter/google_maps_flutter.framework/Modules/module.modulemap \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap \
@@ -37,7 +40,10 @@ dependencies: \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStrokeStyle.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStyleSpan.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygonLayer.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlayLayer.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h \
@@ -72,6 +78,12 @@ dependencies: \
   /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/google_maps_flutter/google_maps_flutter.framework/Headers/GoogleMapController.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/google_maps_flutter/google_maps_flutter.framework/Headers/GoogleMapCircleController.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/google_maps_flutter/google_maps_flutter.framework/Headers/google_maps_flutter-umbrella.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/image_picker/image_picker.framework/Headers/FLTImagePickerPlugin.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/image_picker/image_picker.framework/Modules/module.modulemap \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/image_picker/image_picker.framework/Headers/FLTImagePickerPhotoAssetUtil.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/image_picker/image_picker.framework/Headers/FLTImagePickerMetaDataUtil.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/image_picker/image_picker.framework/Headers/FLTImagePickerImageUtil.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/image_picker/image_picker.framework/Headers/image_picker-umbrella.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/location/location.framework/Headers/LocationPlugin.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/location/location.framework/Modules/module.modulemap \
   /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/location/location.framework/Headers/location-umbrella.h \

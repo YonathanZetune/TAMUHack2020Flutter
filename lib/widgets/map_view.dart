@@ -31,10 +31,6 @@ class MapView extends StatelessWidget {
       createLocalImageConfiguration(context);
       BitmapDescriptor myIcon = await BitmapDescriptor.fromAssetImage(
           imageConfiguration, 'assets/fire_96.png');
-//      if (!stop.isStop) {
-//        myIcon = await BitmapDescriptor.fromAssetImage(
-//            imageConfiguration, 'assets/wayIcon.png');
-//      }
       newMarkers.add(Marker(
           markerId: MarkerId('STOP:' + markerID.toString()),
           flat: false,
@@ -72,7 +68,8 @@ class MapView extends StatelessWidget {
         rotateGesturesEnabled: true,
         scrollGesturesEnabled: true,
         initialCameraPosition: Constants.defaultPosition,
-        markers: mapInfo.fireMarkers,// TODO: addmarkers
+        markers: mapInfo.fireMarkers,
+        // TODO: addmarkers
         onMapCreated: (GoogleMapController controller) async {
 //          SharedPreferences prefs = await SharedPreferences.getInstance();
 //          controller.setMapStyle(mapInfo.mapStyle);
