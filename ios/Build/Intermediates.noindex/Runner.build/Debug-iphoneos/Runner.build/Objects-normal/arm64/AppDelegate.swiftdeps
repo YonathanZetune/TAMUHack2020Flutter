@@ -10,6 +10,7 @@ provides-dynamic-lookup:
 depends-top-level:
 - "AppDelegate"
 - "Bool"
+- !private "FirebaseApp"
 - "FlutterAppDelegate"
 - !private "GMSServices"
 - !private "GeneratedPluginRegistrant"
@@ -17,56 +18,69 @@ depends-top-level:
 - "UIApplication"
 depends-member:
 - ["6Runner11AppDelegateC", "Bool"]
+- !private ["6Runner11AppDelegateC", "FirebaseApp"]
 - !private ["6Runner11AppDelegateC", "GMSServices"]
 - !private ["6Runner11AppDelegateC", "GeneratedPluginRegistrant"]
 - ["6Runner11AppDelegateC", "UIApplication"]
 - ["6Runner11AppDelegateC", "application"]
 - ["6Runner11AppDelegateC", "deinit"]
 - ["6Runner11AppDelegateC", "init"]
+- !private ["s7CVarArgP", "FirebaseApp"]
 - !private ["s7CVarArgP", "GMSServices"]
 - !private ["s7CVarArgP", "GeneratedPluginRegistrant"]
 - ["s7CVarArgP", "LaunchOptionsKey"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "application"]
+- !private ["s7CVarArgP", "configure"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "provideAPIKey"]
 - !private ["s7CVarArgP", "register"]
+- !private ["s28CustomDebugStringConvertibleP", "FirebaseApp"]
 - !private ["s28CustomDebugStringConvertibleP", "GMSServices"]
 - !private ["s28CustomDebugStringConvertibleP", "GeneratedPluginRegistrant"]
 - ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "application"]
+- !private ["s28CustomDebugStringConvertibleP", "configure"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "provideAPIKey"]
 - !private ["s28CustomDebugStringConvertibleP", "register"]
+- !private ["s23CustomStringConvertibleP", "FirebaseApp"]
 - !private ["s23CustomStringConvertibleP", "GMSServices"]
 - !private ["s23CustomStringConvertibleP", "GeneratedPluginRegistrant"]
 - ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "application"]
+- !private ["s23CustomStringConvertibleP", "configure"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "provideAPIKey"]
 - !private ["s23CustomStringConvertibleP", "register"]
+- !private ["SQ", "FirebaseApp"]
 - !private ["SQ", "GMSServices"]
 - !private ["SQ", "GeneratedPluginRegistrant"]
 - ["SQ", "LaunchOptionsKey"]
 - ["SQ", ""]
 - !private ["SQ", "application"]
+- !private ["SQ", "configure"]
 - !private ["SQ", "init"]
 - !private ["SQ", "provideAPIKey"]
 - !private ["SQ", "register"]
+- !private ["So6FIRAppC", "configure"]
 - ["So18FlutterAppDelegateC", "Bool"]
+- !private ["So18FlutterAppDelegateC", "FirebaseApp"]
 - !private ["So18FlutterAppDelegateC", "GMSServices"]
 - !private ["So18FlutterAppDelegateC", "GeneratedPluginRegistrant"]
 - ["So18FlutterAppDelegateC", "UIApplication"]
 - ["So18FlutterAppDelegateC", ""]
 - ["So18FlutterAppDelegateC", "application"]
 - ["So18FlutterAppDelegateC", "init"]
+- !private ["So27FlutterAppLifeCycleProviderP", "FirebaseApp"]
 - !private ["So27FlutterAppLifeCycleProviderP", "GMSServices"]
 - !private ["So27FlutterAppLifeCycleProviderP", "GeneratedPluginRegistrant"]
 - ["So27FlutterAppLifeCycleProviderP", ""]
 - !private ["So27FlutterAppLifeCycleProviderP", "application"]
 - !private ["So27FlutterAppLifeCycleProviderP", "init"]
+- !private ["So21FlutterPluginRegistryP", "FirebaseApp"]
 - !private ["So21FlutterPluginRegistryP", "GMSServices"]
 - !private ["So21FlutterPluginRegistryP", "GeneratedPluginRegistrant"]
 - ["So21FlutterPluginRegistryP", ""]
@@ -74,37 +88,45 @@ depends-member:
 - !private ["So21FlutterPluginRegistryP", "init"]
 - !private ["So11GMSServicesC", "provideAPIKey"]
 - !private ["So25GeneratedPluginRegistrantC", "register"]
+- !private ["SH", "FirebaseApp"]
 - !private ["SH", "GMSServices"]
 - !private ["SH", "GeneratedPluginRegistrant"]
 - ["SH", "LaunchOptionsKey"]
 - ["SH", ""]
 - !private ["SH", "application"]
+- !private ["SH", "configure"]
 - !private ["SH", "init"]
 - !private ["SH", "provideAPIKey"]
 - !private ["SH", "register"]
 - ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "FirebaseApp"]
 - !private ["So8NSObjectC", "GMSServices"]
 - !private ["So8NSObjectC", "GeneratedPluginRegistrant"]
 - ["So8NSObjectC", "LaunchOptionsKey"]
 - ["So8NSObjectC", "UIApplication"]
 - ["So8NSObjectC", "application"]
+- !private ["So8NSObjectC", "configure"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "provideAPIKey"]
 - !private ["So8NSObjectC", "register"]
+- !private ["So8NSObjectP", "FirebaseApp"]
 - !private ["So8NSObjectP", "GMSServices"]
 - !private ["So8NSObjectP", "GeneratedPluginRegistrant"]
 - ["So8NSObjectP", "LaunchOptionsKey"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "application"]
+- !private ["So8NSObjectP", "configure"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "provideAPIKey"]
 - !private ["So8NSObjectP", "register"]
 - ["So13UIApplicationC", "LaunchOptionsKey"]
+- !private ["So21UIApplicationDelegateP", "FirebaseApp"]
 - !private ["So21UIApplicationDelegateP", "GMSServices"]
 - !private ["So21UIApplicationDelegateP", "GeneratedPluginRegistrant"]
 - ["So21UIApplicationDelegateP", ""]
 - !private ["So21UIApplicationDelegateP", "application"]
 - !private ["So21UIApplicationDelegateP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "FirebaseApp"]
 - !private ["So30UIPasteConfigurationSupportingP", "GMSServices"]
 - !private ["So30UIPasteConfigurationSupportingP", "GeneratedPluginRegistrant"]
 - ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
@@ -112,42 +134,50 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "application"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "FirebaseApp"]
 - !private ["So11UIResponderC", "GMSServices"]
 - !private ["So11UIResponderC", "GeneratedPluginRegistrant"]
 - ["So11UIResponderC", "LaunchOptionsKey"]
 - ["So11UIResponderC", "UIApplication"]
 - ["So11UIResponderC", "application"]
 - ["So11UIResponderC", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "FirebaseApp"]
 - !private ["So30UIResponderStandardEditActionsP", "GMSServices"]
 - !private ["So30UIResponderStandardEditActionsP", "GeneratedPluginRegistrant"]
 - ["So30UIResponderStandardEditActionsP", "LaunchOptionsKey"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "application"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So23UIUserActivityRestoringP", "FirebaseApp"]
 - !private ["So23UIUserActivityRestoringP", "GMSServices"]
 - !private ["So23UIUserActivityRestoringP", "GeneratedPluginRegistrant"]
 - ["So23UIUserActivityRestoringP", "LaunchOptionsKey"]
 - ["So23UIUserActivityRestoringP", ""]
 - !private ["So23UIUserActivityRestoringP", "application"]
 - !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So32UNUserNotificationCenterDelegateP", "FirebaseApp"]
 - !private ["So32UNUserNotificationCenterDelegateP", "GMSServices"]
 - !private ["So32UNUserNotificationCenterDelegateP", "GeneratedPluginRegistrant"]
 - ["So32UNUserNotificationCenterDelegateP", ""]
 - !private ["So32UNUserNotificationCenterDelegateP", "application"]
 - !private ["So32UNUserNotificationCenterDelegateP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FirebaseApp"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "GMSServices"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "GeneratedPluginRegistrant"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "application"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configure"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "provideAPIKey"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FirebaseApp"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GMSServices"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GeneratedPluginRegistrant"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LaunchOptionsKey"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "application"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "configure"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "provideAPIKey"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "register"]
@@ -157,6 +187,7 @@ depends-nominal:
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
 - "SQ"
+- !private "So6FIRAppC"
 - "So18FlutterAppDelegateC"
 - "So27FlutterAppLifeCycleProviderP"
 - "So21FlutterPluginRegistryP"
@@ -216,6 +247,8 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CATransform3D.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFUUID.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSUUID.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURL.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURL.h"
@@ -223,6 +256,8 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/ImageIO.framework/Headers/ImageIO.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/alloca.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
 - "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
 - "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFData.h"
@@ -231,6 +266,7 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CMMetadata.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSMetadata.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/ImageIO.framework/Headers/CGImageMetadata.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionImageMetadata.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Security.framework/Headers/SecProtocolMetadata.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/sys/quota.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CTTextTab.h"
@@ -275,9 +311,11 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/mach/kmod.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPasteboard.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStoryboard.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionDocumentTextWord.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/unistd.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/sys/unistd.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/pwd.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionFace.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIInterface.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/mach/mach_interface.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLIOSurface.h"
@@ -308,6 +346,8 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UILayoutGuide.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIScreenMode.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFXMLNode.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionBarcode.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionLatitudeLongitude.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFTree.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/sys/rbtree.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFPage.h"
@@ -315,6 +355,7 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIImage.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImage.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionImage.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSHTTPCookieStorage.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/lib/swift/shims/ThreadLocalStorage.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLCredentialStorage.h"
@@ -322,6 +363,7 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFHTTPMessage.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/objc/message.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/mach/message.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionTextRecognizedLanguage.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CMFormatDescriptionBridge.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CMTimeRange.h"
@@ -373,6 +415,7 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIScene.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindowScene.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CTLine.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionTextLine.h"
 - "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Flutter/Flutter.framework/Headers/FlutterEngine.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/mach/machine.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Metal.framework/Headers/MTLPipeline.h"
@@ -394,6 +437,7 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/__wctype.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/xlocale/__wctype.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/runetype.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKitCore.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/semaphore.h"
@@ -418,6 +462,7 @@ depends-external:
 - "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/dispatch/base.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/os/base.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/Firebase/CoreOnly/Sources/Firebase.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/readpassphrase.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLResponse.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UNNotificationResponse.h"
@@ -432,6 +477,7 @@ depends-external:
 - "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Flutter/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITextPasteDelegate.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CTRunDelegate.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
 - "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Flutter/Flutter.framework/Headers/FlutterAppDelegate.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManagerDelegate.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/mach/machine/thread_state.h"
@@ -504,6 +550,7 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UISwitch.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/mach/thread_switch.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITouch.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionDocumentTextParagraph.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPath.h"
 - "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
 - "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
@@ -515,16 +562,21 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/sys/kauth.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/objc/objc-api.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/mach/port_obj.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionTextRecognizedBreak.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/sys/_types/_sigaltstack.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSLock.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/os/lock.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/sys/lock.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/Block.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionTextBlock.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionDocumentTextBlock.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CMAudioClock.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/dispatch/block.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/mach/clock.h"
 - "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CADisplayLink.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionCloudLandmark.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionFaceLandmark.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLPlacemark.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/mach/task.h"
@@ -544,8 +596,12 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/sys/acl.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/net/if_dl.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UILabel.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionImageLabel.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLCommon/Frameworks/FirebaseMLCommon.framework/Headers/FIRRemoteModel.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLCommon/Frameworks/FirebaseMLCommon.framework/Headers/FIRLocalModel.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIKernel.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/mach/dyld_kernel.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
 - "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h"
@@ -560,6 +616,7 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/sys/poll.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNull.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/sys/_types/_null.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionDocumentTextSymbol.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLProtocol.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAutoreleasePool.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVPixelBufferPool.h"
@@ -637,6 +694,8 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLBeaconRegion.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLCircularRegion.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/mach/vm_region.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FirebaseMLVision.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVision.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UNNotificationServiceExtension.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/FileProvider.framework/Headers/NSFileProviderExtension.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/NSFileProviderExtension.h"
@@ -667,6 +726,7 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSOperation.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/FileProvider.framework/Headers/NSFileProviderItemDecoration.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStateRestoration.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImageConfiguration.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPasteConfiguration.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImageSymbolConfiguration.h"
@@ -709,6 +769,7 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/mach/arm/exception.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CMFormatDescription.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVPixelFormatDescription.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLCommon/Frameworks/FirebaseMLCommon.framework/Headers/FirebaseMLCommon.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIBarCommon.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/secure/_common.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h"
@@ -766,6 +827,7 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFRunLoop.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRunLoop.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/dispatch/workloop.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/grp.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CMTextMarkup.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIBarButtonItemGroup.h"
@@ -822,6 +884,7 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVPixelBuffer.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Metal.framework/Headers/MTLCaptureManager.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLCommon/Frameworks/FirebaseMLCommon.framework/Headers/FIRModelManager.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSUndoManager.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStatusBarManager.h"
@@ -836,6 +899,7 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITextChecker.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIDatePicker.h"
 - "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionImageLabeler.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UICloudSharingController.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UISearchController.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINavigationController.h"
@@ -946,6 +1010,8 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITapGestureRecognizer.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIHoverGestureRecognizer.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UILongPressGestureRecognizer.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionTextRecognizer.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionDocumentTextRecognizer.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/sys/_types/_fd_clr.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/NSLayoutAnchor.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIDynamicBehavior.h"
@@ -988,6 +1054,9 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIVector.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBitVector.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIDetector.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionFaceDetector.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionBarcodeDetector.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionCloudLandmarkDetector.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIFilterConstructor.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityCustomRotor.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIBarcodeDescriptor.h"
@@ -1001,6 +1070,7 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/err.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/sys/attr.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/sys/xattr.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionFaceContour.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/lib/swift/shims/RuntimeStubs.h"
 - "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Flutter/Flutter.framework/Headers/FlutterCodecs.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGraphics.h"
@@ -1008,6 +1078,8 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIFontMetrics.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/mach/vm_statistics.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetDiagnostics.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
 - "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
 - "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetServices.h"
@@ -1016,6 +1088,9 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFUtilities.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSPathUtilities.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/ImageIO.framework/Headers/CGImageProperties.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/sys/times.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Metal.framework/Headers/MTLDefines.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CTDefines.h"
@@ -1103,6 +1178,7 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/lib/swift/shims/NSDictionaryShims.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIFilterBuiltins.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager+CLVisitExtensions.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLCommon/Frameworks/FirebaseMLCommon.framework/Headers/FIRModelDownloadNotifications.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/NSString+UserNotifications.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINibDeclarations.h"
@@ -1113,10 +1189,19 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/NSIndexPath+UIKitAdditions.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/NSItemProvider+UIKitAdditions.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityAdditions.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLCommon/Frameworks/FirebaseMLCommon.framework/Headers/FIRModelDownloadConditions.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UISceneActivationConditions.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UISceneDefinitions.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UISceneOptions.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Security.framework/Headers/SecProtocolOptions.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionCloudImageLabelerOptions.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionOnDeviceImageLabelerOptions.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionCloudTextRecognizerOptions.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionCloudDocumentTextRecognizerOptions.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionCloudDetectorOptions.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionFaceDetectorOptions.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionBarcodeDetectorOptions.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/termios.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/sys/termios.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/pthread/qos.h"
@@ -1294,6 +1379,7 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/sys/_types/_s_ifmt.h"
 - "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Runner/GeneratedPluginRegistrant.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGradient.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionTextElement.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIMenuElement.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityElement.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSMeasurement.h"
@@ -1317,6 +1403,7 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLBeaconIdentityConstraint.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/lib/swift/shims/SwiftStdint.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/stdint.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionPoint.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGFont.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIFont.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CTFont.h"
@@ -1356,6 +1443,8 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStringEncodingExt.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/NSText.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionText.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionDocumentText.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/glext.h"
@@ -1451,8 +1540,14 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIUserActivity.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSUserActivity.h"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSProxy.h"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
 - "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Modules/module.modulemap"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLCommon/Frameworks/FirebaseMLCommon.framework/Modules/module.modulemap"
 - "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Flutter/Flutter.framework/Modules/module.modulemap"
+- "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
@@ -1470,4 +1565,4 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "7f6b6d6c154ef58770c3874ff0636387"
+interface-hash: "ae1e0f4dbb8df743e8bd08428123a9cb"

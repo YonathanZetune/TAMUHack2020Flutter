@@ -2,6 +2,7 @@ dependencies: \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Runner/GeneratedPluginRegistrant.m \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Runner/GeneratedPluginRegistrant.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Flutter/Flutter.framework/Modules/module.modulemap \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/Firebase/CoreOnly/Sources/module.modulemap \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Flutter/Flutter.framework/Headers/FlutterTexture.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Flutter/Flutter.framework/Headers/FlutterPlugin.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Flutter/Flutter.framework/Headers/FlutterEngine.h \
@@ -17,6 +18,73 @@ dependencies: \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Flutter/Flutter.framework/Headers/FlutterMacros.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Flutter/Flutter.framework/Headers/FlutterAppDelegate.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/ios/Flutter/Flutter.framework/Headers/Flutter.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/firebase_ml_vision/firebase_ml_vision.framework/Headers/FLTFirebaseMlVisionPlugin.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/firebase_ml_vision/firebase_ml_vision.framework/Modules/module.modulemap \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLCommon/Frameworks/FirebaseMLCommon.framework/Modules/module.modulemap \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLCommon/Frameworks/FirebaseMLCommon.framework/Headers/FIRRemoteModel.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLCommon/Frameworks/FirebaseMLCommon.framework/Headers/FIRModelManager.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLCommon/Frameworks/FirebaseMLCommon.framework/Headers/FIRModelDownloadNotifications.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLCommon/Frameworks/FirebaseMLCommon.framework/Headers/FIRModelDownloadConditions.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLCommon/Frameworks/FirebaseMLCommon.framework/Headers/FIRLocalModel.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLCommon/Frameworks/FirebaseMLCommon.framework/Headers/FirebaseMLCommon.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Modules/module.modulemap \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionTextRecognizer.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionTextRecognizedLanguage.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionTextRecognizedBreak.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionTextLine.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionTextElement.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionTextBlock.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionText.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionPoint.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionOnDeviceImageLabelerOptions.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionLatitudeLongitude.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionImageMetadata.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionImageLabeler.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionImageLabel.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionImage.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionFaceDetectorOptions.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionFaceDetector.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionFaceLandmark.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionFaceContour.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionFace.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionDocumentTextWord.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionDocumentTextSymbol.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionDocumentTextRecognizer.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionDocumentTextParagraph.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionDocumentTextBlock.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionDocumentText.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionCloudTextRecognizerOptions.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionCloudLandmarkDetector.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionCloudLandmark.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionCloudImageLabelerOptions.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionCloudDocumentTextRecognizerOptions.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionCloudDetectorOptions.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionBarcodeDetector.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionBarcodeDetectorOptions.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVisionBarcode.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FIRVision.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/FirebaseMLVision/Frameworks/FirebaseMLVision.framework/Headers/FirebaseMLVision.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/ios/Pods/Headers/Public/Firebase/Firebase.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/firebase_ml_vision/firebase_ml_vision.framework/Headers/UserAgent.h \
+  /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/firebase_ml_vision/firebase_ml_vision.framework/Headers/firebase_ml_vision-umbrella.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/flutter_keyboard_visibility/flutter_keyboard_visibility.framework/Headers/KeyboardVisibilityPlugin.h \
   /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/flutter_keyboard_visibility/flutter_keyboard_visibility.framework/Modules/module.modulemap \
   /Users/YoniZetune/Develop/tamu_hack_2020/build/ios/Debug-iphoneos/flutter_keyboard_visibility/flutter_keyboard_visibility.framework/Headers/flutter_keyboard_visibility-umbrella.h \
