@@ -15,7 +15,7 @@ class HomeFAB extends StatelessWidget {
       child: FloatingActionButton(
         backgroundColor: Colors.white,
 
-        child: Icon(Icons.home,color: Colors.deepOrange,),
+        child: Icon(Icons.home,color: Colors.deepOrange, size: 35.0),
         tooltip: "Return to home",
         onPressed: () async {
           // TODO: implement return to home functionality

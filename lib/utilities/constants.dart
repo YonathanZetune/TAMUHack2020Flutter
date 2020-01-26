@@ -6,6 +6,7 @@ class Constants {
   //strings
   static const appName = "Brush";
   static const breezeAPIKey = "6b16e1d42b454f6b8dfb371dfb46d462";
+  static const gMapsAPIKey = "AIzaSyBlqx2h7ABscfQSz-3MeYPzdWU1EfBJjgg";
 
   //Lists
 //  static const tabs = List(TabItem(icon: Icons.home));
