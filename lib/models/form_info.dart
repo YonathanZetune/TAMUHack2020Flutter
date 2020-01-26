@@ -7,25 +7,19 @@ import 'package:provider/provider.dart';
 
 
 class FormInfo extends ChangeNotifier {
-  static Image _image = Image.file(
-    new File(''),
+  static File _image = File('');
 //    width: MediaQuery.of(context).size.width,
 //    height: 300,
-  );
 
   static bool _needUpload = false;
 
-  Image get image => _image;
+  File get image => _image;
 
   bool get needUpload => _needUpload;
 
 
-  set image(Image img) {
-    _image = Image.file(
-      File(''),
-//    width: MediaQuery.of(context).size.width,
-//    height: 300,
-    );;
+  set image(File img) {
+    _image = img;
     notifyListeners();
   }
 

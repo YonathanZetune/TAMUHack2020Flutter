@@ -7,17 +7,73 @@ import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 import 'package:tamu_hack_2020/models/form_info.dart';
 import 'package:tamu_hack_2020/models/map_info.dart';
+import 'package:tamu_hack_2020/utilities/constants.dart';
+import 'package:tamu_hack_2020/utilities/requests.dart';
 
 class ReportPage extends StatelessWidget {
   final GlobalKey<FormBuilderState> _fbKey = GlobalKey<FormBuilderState>();
 
-  Future getImage(BuildContext context) async {
+  Future<File> getImage(BuildContext context) async {
     var image = await ImagePicker.pickImage(source: ImageSource.gallery);
-//    var formInfo = Provider.of<FormInfo>(context, listen: false);
+    //    var formInfo = Provider.of<FormInfo>(context, listen: false);
+    showAlertDialog(context, image);
+    return image;
   }
 
-  Future<void> uploadImage(){
+  showAlertDialog(BuildContext context, File img) {
+    // set up the buttons
+    Widget cancelButton = FlatButton(
+      child: Text("Cancel"),
+      onPressed: () {
+        Navigator.of(context).pop();
+      },
+    );
+    Widget continueButton = FlatButton(
+      child: Text("Continue"),
+      onPressed: () async {
+        uploadImage(img);
+        Navigator.of(context).pop();
+      },
+    );
 
+    AlertDialog alert = AlertDialog(
+      title: Text("Image Selected"),
+      content:
+          Text("Image is ready to be uploaded. Would you like to proceed?"),
+      actions: [
+        cancelButton,
+        continueButton,
+      ],
+    );
+
+    // show the dialog
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return alert;
+      },
+    );
+//    AlertDialog alertSuccess = AlertDialog(
+//      title: Text("Form was received and updated databse!"),
+//      content:
+//      Text("You report is not available on the List tab"),
+//      actions: [
+//        cancelButton,
+//
+//      ],
+//    );
+//
+//    // show the dialog
+//    showDialogSuc(
+//      context: context,
+//      builder: (BuildContext context) {
+//        return alertSuccess;
+//      },
+//    );
+  }
+
+  void uploadImage(File img) {
+    Requests.getImageProperties(img);
   }
 
   @override
@@ -60,22 +116,53 @@ class ReportPage extends StatelessWidget {
                       label: Text('Upload Image'),
                       attribute: "accept_terms_switch",
                       initialValue: false,
-                      onChanged: (selected) {
+                      onChanged: (selected) async {
                         if (selected) {
                           print('selected');
                           formInfo.needUpload = true;
 
-                          getImage(context);
-//                          build(context);
-
+                          formInfo.image = await getImage(context);
                         } else {
                           print('notselected');
                           formInfo.image = null;
-
-//                          build(context);
                         }
                       },
                     ),
+                    Row(
+                      children: <Widget>[
+                        MaterialButton(
+                          child: Text("Submit"),
+                          onPressed: () async {
+//                            print("SPEC");
+
+                            await Requests.getImageProperties(formInfo.image)
+                                .then((spec) async {
+                              print("SPEC");
+
+                              await Requests.postFAPIAnimal(Constants.startLat,
+                                  Constants.startLong, spec).then((status){
+                                    if(status == 200){
+                                        print("Data received!");
+                                    }
+                              });
+
+
+                            });
+                            if (_fbKey.currentState.saveAndValidate()) {
+                              print(_fbKey.currentState.value);
+                            }
+                            //call to post request
+
+                          },
+                        ),
+                        MaterialButton(
+                          child: Text("Reset"),
+                          onPressed: () {
+                            _fbKey.currentState.reset();
+                          },
+                        ),
+                      ],
+                    )
                   ],
                 ),
               )
