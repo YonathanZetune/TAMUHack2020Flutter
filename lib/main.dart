@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:tamu_hack_2020/frontend/list_page.dart';
 import 'package:tamu_hack_2020/frontend/report_page.dart';
 import 'package:tamu_hack_2020/models/form_info.dart';
 
@@ -19,9 +20,7 @@ class MyApp extends StatelessWidget {
         // When we navigate to the "/" route, build the MapView Screen
         '/ReportPage': (context) => ChangeNotifierProvider(
             create: (context) => FormInfo(), child: ReportPage()),
-//        '/Announcements': (context) => new AnnouncementsPage(),
-
-//        '/gSearch': (context) => new Search(),
+        '/ReportList': (context) => new ReportList(),
       },
       theme: ThemeData(
         primaryColor: Colors.red[600],

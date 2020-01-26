@@ -37,7 +37,9 @@ class MyHome extends StatelessWidget {
                   Navigator.of(context).pushNamed('/ReportPage');
                   break;
                 case 2:
-                  Navigator.of(context).pushNamed('/Announcements');
+                  //Navigator.of(context).canPop()
+                       Navigator.of(context).popAndPushNamed('/ReportList');
+                     // : print('cant push');
                   break;
               }
             },
