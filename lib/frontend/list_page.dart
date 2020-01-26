@@ -22,7 +22,7 @@ class ReportList extends StatelessWidget {
                               image: AssetImage(
                                   'assets/list${position + 1}.jpg'))),
                     ),
-                    Text("Placeholder"),
+                    Text(position % 2 == 0 ? "In progress" : "Submitted"),
                   ],
                 )),
           );
