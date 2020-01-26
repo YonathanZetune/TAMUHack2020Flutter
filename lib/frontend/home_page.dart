@@ -16,7 +16,7 @@ class MyHome extends StatelessWidget {
     tabs.add(TabItem(title: "List", icon: Icons.list));
 
     return ChangeNotifierProvider(
-      create: (_) => new MapInfo(),
+      create: (context) => MapInfo(),
       child: Container(
         child: Scaffold(
           bottomNavigationBar: ConvexAppBar(
@@ -30,7 +30,7 @@ class MyHome extends StatelessWidget {
           body: Stack(
             children: <Widget>[
               MapView(),
-              Positioned(bottom: 30, right: 20, child: HomeFAB())
+              HomeFAB()
             ],
           ),
         ),

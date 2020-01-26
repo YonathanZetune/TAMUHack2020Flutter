@@ -12,8 +12,8 @@ class Constants {
 
   //numbers
   static const breezeRadius = 60;
-  static const startLat = -33.470787;
-  static const startLong = 150.162418;
+  static const startLat = -35.852522;
+  static const startLong = 149.949387;
 
   //other
   static const CameraPosition defaultPosition = CameraPosition(
