@@ -112,6 +112,14 @@ class ReportPage extends StatelessWidget {
                         FormBuilderValidators.max(100),
                       ],
                     ),
+                    FormBuilderSegmentedControl(
+                      decoration: InputDecoration(labelText: "Route to organization"),
+                      attribute: "org_type",
+                      options: [FormBuilderFieldOption(
+                          value: "Food"),FormBuilderFieldOption(
+                          value: "Shelter"),FormBuilderFieldOption(
+                          value: "Transport")],
+                    ),
                     FormBuilderSwitch(
                       label: Text('Upload Image'),
                       attribute: "accept_terms_switch",

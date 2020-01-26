@@ -14,9 +14,12 @@ class RefreshFAB extends StatelessWidget {
       left: 20,
       child: FloatingActionButton(
         heroTag: "refFAB1",
-
         backgroundColor: Colors.white,
-        child: Icon(Icons.refresh,size: 35.0, color: Colors.deepOrange,),
+        child: Icon(
+          Icons.refresh,
+          size: 35.0,
+          color: Colors.red[600],
+        ),
         tooltip: "Refresh markers",
         onPressed: () async {
           // TODO: implement return to home functionality

@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:rounded_floating_app_bar/rounded_floating_app_bar.dart';
 import 'package:tamu_hack_2020/models/form_info.dart';
 import 'package:tamu_hack_2020/models/map_info.dart';
+import 'package:tamu_hack_2020/widgets/danger_fab.dart';
 import 'package:tamu_hack_2020/widgets/home_fab.dart';
 import 'package:tamu_hack_2020/widgets/map_view.dart';
 import 'package:tamu_hack_2020/widgets/refresh_fab.dart';
@@ -55,6 +56,7 @@ class MyHome extends StatelessWidget {
               MapView(),
               HomeFAB(),
               RefreshFAB(),
+              DangerFAB(),
             ],
           ),
         ),

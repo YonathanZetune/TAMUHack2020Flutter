@@ -20,6 +20,15 @@ class Requests {
     return fireList;
   }
 
+//  static Future<int> getWindDirection() async {
+//    var path =
+//        "https://api.breezometer.com/weather/v1/current-conditions?lat=${Constants.startLat}&lon=${Constants.startLong}&key=${Constants.breezeAPIKey}";
+//    var result = await getResult(path);
+//    print(result.toString());
+//    var fireList = FireList.fromJson(result).fires;
+//    return fireList;
+//  }
+
   static Future<String> getImageProperties(File img) async {
     File imageFile = img;
     final FirebaseVisionImage visionImage =
@@ -32,17 +41,10 @@ class Requests {
     for (ImageLabel label in cloudLabels) {
       print(label.text);
       return label.text;
-
-      final String text = label.text;
-      final String entityId = label.entityId;
-      final double confidence = label.confidence;
-//      print("Label: " + text + ", " + entityId + ", " + confidence.toString());
     }
     cloudLabeler.close();
     labeler.close();
   }
-
-  static void sendAnimal() {}
 
   static Future<dynamic> getResult(String path) async {
     String requestUrl = 'https://api.breezometer.com/$path';
