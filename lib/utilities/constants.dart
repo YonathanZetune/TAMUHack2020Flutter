@@ -17,7 +17,7 @@ class Constants {
 
   //other
   static const CameraPosition defaultPosition = CameraPosition(
-      target: LatLng(startLat, startLong), bearing: 270, zoom: 13.0, tilt: 0);
+      target: LatLng(startLat, startLong), bearing: 270, zoom: 10.0, tilt: 0);
 
 
 }

@@ -41,6 +41,11 @@ class MapView extends StatelessWidget {
 //    print("Markers updated" + newMarkers.toString());
   }
 
+  static Future<void> goToHome(BuildContext context) async {
+    final GoogleMapController controller = await mController.future;
+    controller.animateCamera(CameraUpdate.newCameraPosition(Constants.defaultPosition));
+  }
+
   @override
   Widget build(BuildContext context) {
     var mapInfo = Provider.of<MapInfo>(context, listen: false);

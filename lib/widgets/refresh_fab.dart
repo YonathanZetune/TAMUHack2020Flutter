@@ -4,24 +4,23 @@ import 'package:tamu_hack_2020/models/map_info.dart';
 import 'package:tamu_hack_2020/utilities/requests.dart';
 import 'package:tamu_hack_2020/widgets/map_view.dart';
 
-class HomeFAB extends StatelessWidget {
+class RefreshFAB extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Provider.of<MapInfo>(context, listen: false);
 
     return Positioned(
       bottom: 30,
-      right: 20,
+      left: 20,
       child: FloatingActionButton(
         backgroundColor: Colors.white,
-
-        child: Icon(Icons.home,color: Colors.deepOrange,),
-        tooltip: "Return to home",
+        child: Icon(Icons.refresh, color: Colors.deepOrange,),
+        tooltip: "Refresh markers",
         onPressed: () async {
           // TODO: implement return to home functionality
-          MapView.goToHome(context);
-//          MapView.setFireMarkers(await Requests.getFires(),
-//              context); // = MapView.//await Requests.getFires();
+
+          MapView.setFireMarkers(await Requests.getFires(),
+              context); // = MapView.//await Requests.getFires();
         },
       ),
     );
